@@ -1,0 +1,671 @@
+nav .nav-menu {
+  display: none;
+}
+
+nav .nav-menu i {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width:600px) {
+  nav {
+    padding: 0 5vw;
+  }
+
+  nav .nav-center {
+    display: none;
+  }
+
+  nav .nav-right {
+    display: none;
+  }
+
+  nav .nav-menu {
+    display: block;
+  }
+
+  nav .nav-menu i {
+    font-size: 1.8rem;
+  }
+
+  .index-page {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .index-page #circle {
+    position: relative;
+    left: -48px;
+    top: 10px;
+  }
+
+  .index-page #circle .circle2 {
+    height: 65vw;
+    width: 65vw;
+  }
+
+  .index-page #circle .circle3 {
+    height: 85vw;
+    width: 85vw;
+  }
+
+  .hero-page {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: space-evenly;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+  .index-page .hero #circle {
+    margin-left: 0;
+    margin-top: 2.5rem;
+  }
+
+  .index-page #circle .circle2,
+  .index-page #circle .circle3 {
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .index-page #circle .circle3 {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .index-page .hero-page {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .index-page .hero-page .left {
+    top: -10px;
+    left: 0;
+    text-align: center;
+  }
+
+  .index-page .hero-page .left h1 {
+    font-size: 1.4rem;
+  }
+
+  .index-page .hero-page .left p {
+    font-size: 1rem;
+    color: gray;
+  }
+
+  .index-page .hero-page .left button {
+    padding: 0.7rem 1rem;
+
+    position: relative;
+    top: 22rem;
+  }
+
+  .index-page .hero-page .left button p {
+    margin-top: 0;
+    color: rgb(255, 255, 255);
+  }
+
+  .index-page .hero-page .center {
+    top: -4.6rem;
+    left: -6rem;
+  }
+
+  .index-page .hero-page .center>img {
+    height: 18rem;
+    top: 4rem;
+
+  }
+
+  .index-page .hero-page .center .blur {
+    height: 13rem;
+    width: 13rem;
+  }
+
+  .index-page .hero-page .right {
+    display: none;
+  }
+
+  .index-page .hero-page .right>img {
+    height: 2.5rem;
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 770px) {
+  .earbuds-anim-page .p5-circle {
+    width: 400px;
+    height: 400px;
+  }
+
+
+  .earbuds-anim-page .p5-circle .thirdimg {
+    height: 60%;
+    top: 0%;
+    left: 20%;
+  }
+
+  .earbuds-anim-page .divover {
+    padding-top: 8rem;
+  }
+
+  .earbuds-anim-page .p5-circle h2 {
+    font-size: 1.3rem;
+  }
+
+  .earbuds-anim-page .p5-circle p {
+    font-size: 12px;
+  }
+
+  .earbuds-anim-page .p5-circle .p5-div {
+    margin-top: 3rem;
+    padding-left: 0rem;
+    gap: 5px;
+  }
+
+  .earbuds-anim-page .p5-div h1 {
+    font-size: 8rem;
+    line-height: 5rem;
+  }
+
+  .earbuds-anim-page .p5-div h2 {
+    font-size: 1.5rem;
+  }
+
+  .earbuds-anim-page .p5-div h2 span {
+    line-height: 1rem;
+  }
+
+  .earbuds-anim-page .p5-card4 {
+    top: 10%;
+  }
+
+  .earbuds-anim-page .p5-img4 {
+    top: 19%;
+  }
+
+  .earbuds-anim-page .p5-card3 {
+    top: 10%;
+  }
+
+  .earbuds-anim-page .p5-img3 {
+    top: 19%;
+  }
+
+
+
+  .earbuds-anim-page .p5-cards {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    background-size: cover;
+  }
+
+  .earbuds-anim-page .p5-circle-2 h2 {
+    font-size: 2rem;
+  }
+
+  .earbuds-anim-page #page5 .p5-imgs {
+    height: 30%;
+  }
+
+  .earbuds-anim-page .p5-circle-2 {
+    width: 300px;
+    height: 300px;
+  }
+
+}
+
+
+/* page 2 */
+
+
+
+@media screen and (max-width:779px) {
+  .p-top {
+    padding: 20px 1rem 20px 1rem;
+  }
+
+  .products {
+    gap: 10px;
+  }
+
+}
+
+@media screen and (max-width:427px) {
+  .c-box-imgbox {
+    width: 70px;
+    height: 70px;
+  }
+
+  .products {
+    padding: 0 1rem 0 1rem;
+  }
+}
+
+@media screen and (max-width:583px) {
+  .p-banner .lunaimg {
+    display: none;
+    pointer-events: none;
+  }
+
+  .luna-poster {
+    display: block;
+    pointer-events: auto;
+  }
+}
+
+
+/* page 3 */
+
+
+@media screen and (max-width: 770px) {
+  .p5-circle {
+    width: 400px;
+    height: 400px;
+  }
+
+
+  .p5-circle .thirdimg {
+    height: 60%;
+    top: 0%;
+    left: 20%;
+  }
+
+  .divover {
+    padding-top: 8rem;
+  }
+
+  .p5-circle h2 {
+    font-size: 1.3rem;
+  }
+
+  .p5-circle p {
+    /* margin-top: 14px; */
+    font-size: 12px;
+  }
+
+  .p5-circle .p5-div {
+    margin-top: 3rem;
+    padding-left: 0rem;
+    gap: 5px;
+  }
+
+  .p5-div h1 {
+    font-size: 8rem;
+    line-height: 5rem;
+  }
+
+  .p5-div h2 {
+    font-size: 1.5rem;
+  }
+
+  .p5-div h2 span {
+    line-height: 1rem;
+  }
+
+  .p5-card4 {
+    top: 10%;
+  }
+
+  .p5-img4 {
+    top: 19%;
+  }
+
+  .p5-card3 {
+    top: 10%;
+  }
+
+  .p5-img3 {
+    top: 19%;
+  }
+
+
+
+  .p5-cards {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    background-size: cover;
+  }
+
+  .p5-circle-2 h2 {
+    font-size: 2rem;
+  }
+
+  #page5 .p5-imgs {
+    height: 30%;
+  }
+
+  .p5-circle-2 {
+    width: 300px;
+    height: 300px;
+  }
+
+}
+
+@media screen and (max-width:427px) {
+  .p5-circle {
+    /* scale: 0.3; */
+    width: 300px;
+    height: 300px;
+
+  }
+
+
+
+  .p5-circle .thirdimg {
+    height: 50%;
+    top: 14%;
+    left: 20%;
+  }
+
+  .divover {
+    padding-top: 5rem;
+  }
+
+  .p5-circle h2 {
+    font-size: 1.3rem;
+  }
+
+  .p5-circle p {
+    margin-top: 14px;
+    font-size: 12px;
+  }
+
+  .p5-circle .p5-div {
+    margin-top: 0rem;
+    padding-left: 0rem;
+    gap: 5px;
+  }
+
+  .p5-div h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+
+  .p5-div h2 {
+    font-size: 1rem;
+  }
+
+  .p5-div h2 span {
+    line-height: 1rem;
+  }
+
+  .p5-circle-2 {
+    scale: 0;
+    width: 0;
+    height: 0;
+  }
+
+
+
+  .p5-card1 {
+    bottom: 30%;
+  }
+
+  #page5 .p5-img1 {
+    bottom: 20%;
+  }
+
+  .p5-card2 {
+    bottom: 30%;
+  }
+
+  .p5-img2 {
+    bottom: 20%;
+  }
+
+
+
+}
+
+@media screen and (max-width:322px) {
+  .p5-cards {
+    width: 150px;
+    height: 150px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+
+  }
+
+  #page5 .p5-imgs {
+    height: 23%;
+  }
+
+  #page5 .p5-img1 {
+    bottom: 24%;
+  }
+
+  #page5 .p5-img2 {
+    bottom: 24%;
+  }
+
+  .p5-cards-h2 {
+    font-size: 14px;
+  }
+}
+
+
+/* page 4 */
+
+@media screen and (max-width:600px) {
+  .shopping-page-one .productCard {
+    width: 20rem;
+  }
+
+  .shopping-page-one h1 {
+    padding-bottom: 80px;
+  }
+
+  .summer-sale-page .p4-top .p4-top-container .p4-box {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    /* background: #000; */
+    margin-left: 10px;
+    width: 20vw;
+
+  }
+
+  .summer-sale-page .p4-top .p4-top-container .p4-box img {
+    width: 2rem;
+  }
+
+  .summer-sale-page .p4-top .p4-top-container {
+    padding: 0 4rem;
+    width: 100%;
+    justify-content: center;
+    /* background: #000; */
+  }
+
+  .summer-sale-page .p4-top .p4-top-container .p4-box p {
+    display: none;
+  }
+
+  .summer-sale-page .p4-top .p4-top-container .p4-box h3 {
+    width: 50%;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .summer-sale-page .p4-bot {
+    margin-top: 0;
+  }
+
+  .summer-sale-page .p4-bot .p4-bot-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+  }
+
+  .summer-sale-page .p4-bot .p4-bot-container .p4-img {
+    left: 50%;
+    top: 0%;
+  }
+
+  .summer-sale-page .p4-bot .p4-bot-container .p4-bot-left {
+    margin-right: 60px;
+  }
+
+  .summer-sale-page .p4-bot .p4-bot-container .p4-img img {
+    width: 40vw;
+  }
+
+  .summer-sale-page .p4-bot .p4-bot-container .p4-bot-right {
+    display: none;
+  }
+
+  .summer-sale-page .p4-bot .p4-bot-container .p4-bot-left h1 {
+    font-size: 7vw;
+    line-height: 8vw;
+  }
+
+  .summer-sale-page .p4-bot .p4-bot-container .p4-bot-left h4 {
+    font-size: 2vw;
+
+  }
+
+
+}
+
+
+/* page 7 */
+@media screen and (max-width:1240px) {
+  .main .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main .right img {
+    /* transform: scale(0.8); */
+    padding: 0;
+    height: 68%;
+  }
+}
+
+@media screen and (max-width:891px) {
+  .main .right img {
+    padding: 0;
+    height: 85%;
+  }
+
+  .main .right {
+    width: 50%;
+  }
+
+  .main .left {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:691px) {
+  .main .right img {
+    padding: 0;
+    height: 70%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .main .right {
+    display: none;
+  }
+
+  .main .left {
+    width: 100%;
+  }
+
+  .main .left .elem .h h2 {
+    font-size: 4vw;
+  }
+}
+
+
+/* footer */
+@media screen and (max-width:769px) {
+  footer .footer-upper-part .appbtns {
+    display: flex;
+    margin-top: 0rem;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:835px) {
+  .footer-part1 .part1 p {
+    text-align: start;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:752px) {
+  .footer-part1 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  footer .footer-part1 .part1 {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  footer .footer-part1 .part1 p{
+    text-align: center;
+  }
+  footer .part2 .footerLinks{
+    flex-wrap: wrap;
+  }
+  footer .footerLinks .productLinks{
+    width: 100%;
+  }
+  footer .footerLinks .socialLinks{
+    width: 100%;
+  }
+  .socialContent{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:600px) {
+  footer .footer-upper-part .noiseApp {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  footer .footer-upper-part .appPart1 {
+    width: 100%;
+  }
+
+  footer .footer-upper-part .appPart2 {
+    width: 89%;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width:528px){
+  footer .footerLinks .productLinks{
+    flex-wrap: wrap;
+  }
+  footer .footerBranding h1{
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width:429px) {
+  footer .footerBranding h1{
+    font-size: 4rem;
+  }
+}
